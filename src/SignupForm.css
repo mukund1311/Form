@@ -1,0 +1,42 @@
+/* Light mode styles */
+.form {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  /* Dark mode styles */
+  .form.dark {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Toggle button */
+  .dark-toggle {
+    background-color: transparent;
+    border: none;
+    color: #333;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+  }
+  
+  .dark-toggle:hover {
+    color: #666;
+  }
+  
+  /* Dark mode styles for specific elements */
+  .form.dark label {
+    color: #fff;
+  }
+  
+  .form.dark input {
+    background-color: #444;
+    color: #fff;
+  }
+  
+  .form.dark button {
+    background-color: #1a1a1a;
+    color: #fff;
+  }
+  
